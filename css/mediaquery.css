@@ -1,0 +1,333 @@
+@media (max-width: 84rem) {
+  html {
+    font-size: 59.375%;
+  }
+}
+
+@media (max-width: 78rem) {
+  html {
+    font-size: 56.5%;
+  }
+}
+
+@media (max-width: 74rem) {
+  .main-nav-list {
+    gap: 2.8rem;
+  }
+
+  .price-card {
+    padding: 4rem;
+  }
+  .plan-header {
+    margin-bottom: 4rem;
+  }
+  .plan-info {
+    gap: 2.2rem;
+  }
+  .plan-click {
+    margin-top: 3.2rem;
+  }
+
+  .hero {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4.3rem;
+  }
+
+  .eating-img {
+    display: initial;
+    grid-column: 1/3;
+  }
+
+  .hero-text-box {
+    grid-column: 1/-1;
+    text-align: center;
+  }
+
+  .delivered-meals {
+    margin-top: 2.4rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-img-box {
+    grid-column: 3/5;
+  }
+
+  .testimonials-box {
+    grid-column: 1/-1;
+  }
+
+  .testimonials {
+    gap: 2rem;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+    grid-column: 1/-1;
+  }
+
+  .section-form {
+    padding: 0;
+  }
+  .cta-box {
+    grid-template-columns: 50fr 50fr;
+  }
+  .cta-txt-box {
+    margin: 0;
+  }
+  .cta-text {
+    margin-bottom: 6.4rem;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+  }
+  .f-btn {
+    margin-top: 2.4rem;
+  }
+}
+
+@media (max-width: 65.75rem) {
+  .cta-txt-box {
+    grid-column: 1/-1;
+  }
+  .cta-img {
+    display: none;
+  }
+  .points-section{
+    column-gap: 0;
+  }
+}
+
+@media (max-width: 58rem) {
+    html {
+      font-size: 52%;
+    }
+
+
+
+    
+    .highlight-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .hero-description {
+      max-width: 75rem;
+    }
+
+    .gallery {
+      grid-template-columns: repeat(6, 1fr);
+    }
+
+    .price-card {
+      padding: 3.2rem;
+    }
+    .plan-header {
+      margin-bottom: 3.2rem;
+    }
+    .plan-info {
+      gap: 1.8rem;
+    }
+    .plan-click {
+      margin-top: 2.4rem;
+    }
+
+    .section-hero {
+      padding-bottom: 3.2rem;
+    }
+
+    .hero {
+      row-gap: 8rem;
+    }
+
+    .eating-img {
+      display: initial;
+      grid-column: 1/3;
+    }
+
+    .hero-text-box {
+      padding: 0 6.4rem;
+    }
+  }
+
+  @media (max-width: 52rem) {
+    html {
+      font-size: 46%;
+    }
+
+    .highlight-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .highlight-box {
+      max-width: 70rem;
+    }
+    .highlight {
+      text-transform: uppercase;
+      font-family: sans-serif;
+      font-size: 6.8rem;
+      font-weight: 800;
+      letter-spacing: 1px;
+      background-image: url(/img/leaves.jpg);
+      background-repeat: no-repeat;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .hero-description {
+      max-width: 55rem;
+    }
+
+    .heading-primary,
+    .heading-secondary,
+    .heading-tertiary {
+      font-weight: 600;
+    }
+
+    .heading-primary {
+      font-size: 4.8rem;
+    }
+
+    .heading-secondary {
+      font-size: 3.8rem;
+    }
+
+    .heading-tertiary {
+      font-size: 2.4rem;
+    }
+
+    .subheading {
+      font-size: 1.4rem;
+    }
+
+    .nav-btns {
+      display: block;
+    }
+
+    .main-nav-list {
+      gap: 6.4rem;
+      flex-direction: column;
+    }
+
+    .main-nav-list a:link,
+    .main-nav-list a:visited {
+      font-size: 3.8rem;
+      color: aliceblue;
+      font-weight: 600;
+    }
+
+    .main-nav {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.925);
+
+      transform: translateX(100%);
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 4.8rem;
+      transition: all 0.5s ease-in;
+
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+
+    .nav-open .main-nav {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+      transform: translateX(0);
+    }
+
+    .nav-open .menu-icon[name="close-outline"] {
+      display: block;
+    }
+    .nav-open .menu-icon[name="menu-outline"] {
+      display: none;
+    }
+
+    .section-featured {
+      padding: 8rem 4rem;
+    }
+    .section-how {
+      padding: 2rem 0;
+    }
+    .featured-in {
+      padding: 0 2.4rem;
+      margin: 0 2.4rem;
+    }
+    .feature-img-box {
+      display: grid;
+      grid-template-columns: repeat(8, 1fr);
+      grid-template-rows: 1fr 1fr;
+      justify-items: center;
+      row-gap: 5.2rem;
+    }
+    .usa {
+      grid-column: -9/-7;
+      grid-row: 1/2;
+      margin: 0 1.2rem;
+    }
+    .forbes {
+      grid-column: -3/-1;
+      grid-row: 1/2;
+      margin: 0 1.2rem;
+    }
+    .insider {
+      grid-column: -8/-6;
+    }
+    .new-york {
+      grid-row: 1/2;
+      grid-column: -7/ -3;
+    }
+    .tech {
+      grid-column: -4/-2;
+    }
+
+    .meals-cards-box {
+      gap: 3.2rem;
+    }
+    .meal-content {
+      padding: 2rem;
+    }
+    .diets {
+      padding: 1.2rem 0;
+    }
+    .list {
+      gap: 0.8rem;
+    }
+  }
+}
+
+/* .main-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.884);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.nav-open .main-nav {
+  opacity: 1;
+  visibility: show;
+  pointer-events: auto;
+} */
